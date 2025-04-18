@@ -17,7 +17,7 @@
 1. USB를 꽂은 상태에서 `lsusb` 확인:
     
     ```bash
-    **lsusb**
+    lsusb
     ```
     
     정상이라면 **STMicroelectronics ST-LINK/V2** 같은 게 나올 거예요.
@@ -25,8 +25,8 @@
 2. `dfu-util` 설치되어 있다면 DFU 모드로 진입했는지 확인 가능:
     
     ```bash
-    **sudo apt install dfu-util
-    dfu-util -l**
+    sudo apt install dfu-util
+    dfu-util -l
     ```
     
     만약 아무 장치도 안 나오면, DFU 모드가 아닌 상태임
